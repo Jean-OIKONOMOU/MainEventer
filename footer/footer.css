@@ -1,0 +1,31 @@
+
+footer {
+  background-image: url("img/swirl_pattern.png");
+  height: 200px;
+  vertical-align: middle;
+}
+
+.titre>h3{
+  text-transform: uppercase;
+  font-size: 2em;
+  position: relative;
+}
+
+.test>img{
+  position: relative;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  margin: 20px;
+
+}
+.test{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.titre{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
