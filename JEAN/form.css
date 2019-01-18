@@ -19,6 +19,8 @@ label {
 
 .flex {
   display:flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .wrap-input100 {
@@ -29,7 +31,7 @@ label {
 
 form {
   margin: 0 auto;
-  width: 50%;
+  max-width: 40%;
 }
 
 input {
@@ -80,7 +82,7 @@ button {
 }
 
 .flex2 {
-display: flex;
+ display: flex;
  justify-content: center;
  flex-wrap: wrap;
  align-items: center;
