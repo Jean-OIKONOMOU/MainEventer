@@ -80,11 +80,12 @@ button {
 }
 
 .flex2 {
-  display: flex;
+display: flex;
  justify-content: center;
  flex-wrap: wrap;
  align-items: center;
 }
+
 button:hover {
   background-color: red;
   color: white;
