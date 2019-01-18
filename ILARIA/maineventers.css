@@ -15,7 +15,7 @@ input{
    margin: 10px;
 }
 textarea{
-    padding: 30px;
+    padding: 70px;
     border: 1px solid red;
     border-radius: 5px;
 }
@@ -28,6 +28,24 @@ section{
     display: block;
     margin: auto;
     width: 50%;
-    
+}
+input[type=submit]{
+    display: inline;
+    width: 10%;
+    height: auto;
+    text-align: top left;
+    background-color: white;
+    border-radius: 5px red;
+    padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 20%;
+}
+#sendbutton:hover{
+    background-color: red;
+    color: white;
+}
+.inline{
+    display:flex;
 }
 
