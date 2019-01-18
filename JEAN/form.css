@@ -49,6 +49,12 @@ input {
   border-radius: 80px;
   border: 1px solid firebrick;
   margin: 7px;
+  padding-left: 10px;
+}
+
+.e {
+  justify-content: left;
+  flex-direction: column;
 }
 
 textarea {
@@ -57,7 +63,7 @@ textarea {
   border-radius: 15px;
   float: left;
   max-width: 90%;
-  padding-top: 30px;
+  padding-top: 10px;
   padding-bottom: 30px;
   border: 1px solid firebrick;
 }
@@ -83,7 +89,6 @@ button {
 .flex2 {
  display: flex;
  justify-content: center;
- flex-wrap: wrap;
  align-items: center;
  flex-direction: column;
 }
