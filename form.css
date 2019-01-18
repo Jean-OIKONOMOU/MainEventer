@@ -17,10 +17,6 @@ label {
   letter-spacing: 1px;
 }
 
-.flex {
-  display:flex;
-}
-
 .wrap-input100 {
   display: block;
   margin-top: 20px;
@@ -33,7 +29,7 @@ form {
 }
 
 input {
-/*  width: 439px;
+  width: 439px;
   height: 27px;
   background: #efefef;
   border: 1px solid #dedede;
@@ -41,23 +37,17 @@ input {
   margin-top: 3px;
   font-size: 0.9em;
   color: #3a3a3a;
-  -moz-border-radius: 1px;
-  -webkit-border-radius: 1px;*/
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
   border-radius: 80px;
-
-  border: 1px solid red;
-  border-radius: 5px;
-  margin: 10px;
 }
 
 textarea {
-  height: 160px;
-  width: 480px;
+  height: 240px;
+  width: 760px;
   border-radius: 30px;
   float: left;
   max-width: 90%;
-  padding-top: 30px;
-  padding-bottom: 30px;
 }
 
 button {
@@ -77,13 +67,6 @@ button {
   margin-top: 50px;
   margin-bottom: 150px;
   color: red;
-}
-
-.flex2 {
-display: flex;
- justify-content: center;
- flex-wrap: wrap;
- align-items: center;
 }
 
 button:hover {
