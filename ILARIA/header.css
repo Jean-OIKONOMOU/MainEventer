@@ -1,0 +1,37 @@
+@font-face {
+    font-family: 'comfortaa';
+    src: url('Comfortaa-Regular.ttf') format('truetype');
+}
+body{
+    font-family: 'comfortaa';
+}
+.nav a{
+    float: right;
+    padding-right: 10px;
+    margin: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+    background-color: transparent;
+    color: white;
+    
+}
+.image{
+    z-index:-1;
+    filter: brightness(20%);
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+.nav{
+    position: absolute;
+    top: 8px;
+    right: 1px;
+    z-index: -1;
+}
+.logo{
+    position: absolute;
+    top: 150px;
+    left:45%;
+
+}
