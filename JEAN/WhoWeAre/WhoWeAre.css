@@ -1,0 +1,52 @@
+@font-face {
+  font-family: 'cinzel';
+  src: url('Cinzel-Regular.ttf') format('truetype');
+  /* Safari, Android, iOS */
+}
+
+@font-face {
+  font-family: 'comfortaa';
+  src: url('Comfortaa-Regular.ttf') format('truetype');
+  /* Safari, Android, iOS */
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 0.5fr;
+  grid-template-areas: "PIC TITLE" "PIC TEXT" "TEXT2 TEXT2";
+grid-column-gap: 30px;
+
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  margin-left:18%;
+  margin-right:18%;
+    }
+
+.underline {
+  border-bottom: 5px firebrick solid;
+  padding-bottom: 8px;
+  font-family: arial;
+}
+
+h1, .underline{
+ font-family: comfortaa;
+  margin-top: 40px;
+}
+
+p {
+  font-family: comfortaa;
+  color: grey;
+}
+.PIC { grid-area: PIC; margin-left: 20px;}
+
+.TITLE { grid-area: TITLE; }
+
+.TEXT { grid-area: TEXT;
+width: 110%;}
+
+.TEXT2 { grid-area: TEXT2;
+width: 105%;}

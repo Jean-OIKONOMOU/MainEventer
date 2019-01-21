@@ -1,0 +1,69 @@
+@font-face {
+  font-family: 'comfortaa';
+  src: url('Comfortaa-Regular.ttf') format('truetype');
+}
+
+@keyframes mouvement {
+  0% {
+    opacity: 0;
+    top: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes navMouvement {
+  0% {
+    opacity: 0;
+    right: -200px;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+body {
+  font-family: 'comfortaa';
+}
+
+.nav a {
+  float: right;
+  padding-right: 10px;
+  margin: 10px;
+  margin-right: 10px;
+  text-decoration: none;
+  background-color: transparent;
+  color: white;
+}
+
+.image {
+  z-index: -1;
+  filter: brightness(20%);
+  margin: -10px -10px 0 -10px;
+  object-fit: fill;
+}
+
+img {
+  object-fit: fill;
+  max-width: 100%;
+}
+
+.nav {
+  position: absolute;
+  top: 8px;
+  right: 95px;
+  z-index: -1;
+  animation-name: navMouvement;
+  animation-duration: 3s;
+}
+
+.logo {
+  position: absolute;
+  top: 100px;
+  left: 40%;
+  animation-name: mouvement;
+  animation-duration: 3s;
+}

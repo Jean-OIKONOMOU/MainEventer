@@ -1,12 +1,12 @@
 @font-face {
   font-family: 'cinzel';
-  src: url('fonts/Cinzel-Regular.ttf') format('truetype');
+  src: url('Cinzel-Regular.ttf') format('truetype');
   /* Safari, Android, iOS */
 }
 
 @font-face {
   font-family: 'comfortaa';
-  src: url('fonts/Comfortaa-Regular.ttf') format('truetype');
+  src: url('Comfortaa-Regular.ttf') format('truetype');
   /* Safari, Android, iOS */
 }
 
@@ -86,7 +86,6 @@ textarea {
 button {
   font-family: 'comfortaa';
   align-items: center;
-  display: inline-block;
   padding: 0 20px 2px 20px;
   min-width: 150px;
   height: 55px;
@@ -99,11 +98,6 @@ button {
   margin-top: 25px;
   margin-bottom: 150px;
   color: firebrick;
-}
-
-.block {
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .flex2 {

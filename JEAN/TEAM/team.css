@@ -1,3 +1,15 @@
+@font-face {
+  font-family: 'cinzel';
+  src: url('Cinzel-Regular.ttf') format('truetype');
+  /* Safari, Android, iOS */
+}
+
+@font-face {
+  font-family: 'comfortaa';
+  src: url('Comfortaa-Regular.ttf') format('truetype');
+  /* Safari, Android, iOS */
+}
+
 .grid-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -9,45 +21,49 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  grid-template-areas: "ceoPIC . ." "ceoPIC . .";
+  grid-template-areas: "ceoPIC ceoText ceoText" "ceoPIC ceoText ceoText";
   grid-area: CEO;
-  border: 1px blue solid;
 }
 
 .ceoPIC { grid-area: ceoPIC; }
+
+.ceoText { grid-area: ceoText; }
 
 .COO {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  grid-template-areas: "cooPIC . ." "cooPIC . .";
+  grid-template-areas: "cooPIC cooText cooText" "cooPIC cooText cooText";
   grid-area: COO;
-  border: 1px red solid;
 }
 
 .cooPIC { grid-area: cooPIC; }
+
+.cooText { grid-area: cooText; }
 
 .CFO {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  grid-template-areas: "CFOpic . ." "CFOpic . .";
+  grid-template-areas: "CFOpic cfoText cfoText" "CFOpic cfoText cfoText";
   grid-area: CFO;
- border: 1px purple solid;
 }
 
 .CFOpic { grid-area: CFOpic; }
+
+.cfoText { grid-area: cfoText; }
 
 .CTO {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  grid-template-areas: "CTOpic . ." "CTOpic . .";
+  grid-template-areas: "CTOpic ctoText ctoText" "CTOpic ctoText ctoText";
   grid-area: CTO;
-  border: 1px green solid;
 }
 
 .CTOpic { grid-area: CTOpic; }
+
+.ctoText { grid-area: ctoText; }
 
 .flex {
   display: flex;
