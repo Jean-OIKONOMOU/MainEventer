@@ -2,7 +2,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  grid-template-areas: "CEO -coo" "CFO CTO";
+  grid-template-areas: "CEO COO" "CFO CTO";
 }
 
 .CEO {
@@ -11,16 +11,18 @@
   grid-template-rows: 1fr 1fr;
   grid-template-areas: "ceoPIC . ." "ceoPIC . .";
   grid-area: CEO;
+  border: 1px blue solid;
 }
 
 .ceoPIC { grid-area: ceoPIC; }
 
-.-coo {
+.COO {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   grid-template-areas: "cooPIC . ." "cooPIC . .";
-  grid-area: -coo;
+  grid-area: COO;
+  border: 1px red solid;
 }
 
 .cooPIC { grid-area: cooPIC; }
@@ -31,6 +33,7 @@
   grid-template-rows: 1fr 1fr;
   grid-template-areas: "CFOpic . ." "CFOpic . .";
   grid-area: CFO;
+ border: 1px purple solid;
 }
 
 .CFOpic { grid-area: CFOpic; }
@@ -41,6 +44,7 @@
   grid-template-rows: 1fr 1fr;
   grid-template-areas: "CTOpic . ." "CTOpic . .";
   grid-area: CTO;
+  border: 1px green solid;
 }
 
 .CTOpic { grid-area: CTOpic; }
@@ -48,7 +52,6 @@
 .flex {
   display: flex;
   justify-content: center;
-
-  margin-left:20%;
-  margin-right:20%;
+  margin-left:15%;
+  margin-right:15%;
 }
