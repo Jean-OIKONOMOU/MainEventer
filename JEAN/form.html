@@ -14,38 +14,40 @@
 </head>
 
 <body>
-  <form class="" action="" method="post">
-    <div class="flex">
+  <h1><span class="title">Need an Event</span>s ?</h1>
+  <form class="flex" action="" method="post">
 
+    <div class="grid-container">
 
-        <div class="" data-validate="Name is required">
-        <label>Name *</label>
+      <div class="Name" data-validate="Name is required">
+        <label>Name <span class="asterisk">&#128945;</span> </label>
         <input class="" type="text" name="name" placeholder="">
+      </div>
+
+      <div class="Lastname" data-validate="Lastname is required">
+        <label>Lastname <span class="asterisk">&#128945;</span></label>
+        <input class="" type="text" name="name" placeholder="">
+      </div>
+
+      <div class="Email" data-validate="E-mail is required">
+        <label>E-mail <span class="asterisk">&#128945;</span></label>
+        <input class="" type="email" name="email" placeholder="">
+      </div>
+
+      <div class="Textarea">
+        <div data-validate="Message is required">
+          <label class="">Description</label>
+          <textarea class="input" name="message" placeholder=""></textarea>
         </div>
-
-        <div class="" data-validate="Lastname is required">
-          <label>Lastname *</label>
-          <input class="" type="text" name="name" placeholder="">
-        </div>
-
-          <div class="e" data-validate="E-mail is required">
-          <label>E-mail *</label>
-          <input class="" type="email" name="email" placeholder="">
-          </div>
-</div>
-
-<div class="flex2">
-    <div data-validate="Message is required">
-<label class="">Description</label>
-<textarea class="input" name="message" placeholder=""></textarea>
-</div><br>
-
-<button>
-Send
-</button>
-</div>
+      </div>
+    </div>
 
   </form>
+  <div class="flex2">
+    <button>
+      Send
+    </button>
+  </div>
 </body>
 
 </html>

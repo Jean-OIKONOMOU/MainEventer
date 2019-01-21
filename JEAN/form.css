@@ -10,68 +10,83 @@
   /* Safari, Android, iOS */
 }
 
-/* form {
-  margin: 0 auto;
-} */
+.title {
+  border-bottom: 3px solid firebrick;
+  padding-bottom: 3px;
+}
+
+.asterisk {
+  font-size: 13px;
+}
+
+h1 {
+  font-family: 'comfortaa';
+  margin: auto auto 30px 23%;
+  letter-spacing: 1px;
+}
 
 label {
   font-family: "Arial";
   display: block;
   margin: 10px 10px 5px 12px;
   letter-spacing: 1px;
+  color: #1d1d1d;
+  font-size: 18px;
 }
 
 .flex {
-  display:flex;
+  display: flex;
   justify-content: center;
   align-items: center;
 }
 
-/*.wrap-input100 {
-  display: block;
-  margin-top: 20px;
-  letter-spacing: 2px;
-}*/
-
-
-
-input {
-/*  width: 439px;
-  height: 27px;
-  background: #efefef;
-  border: 1px solid #dedede;
-  padding: 10px;
-  margin-top: 3px;
-  font-size: 0.9em;
-  color: #3a3a3a;
-  -moz-border-radius: 1px;
-  -webkit-border-radius: 1px;*/
-  border-radius: 80px;
-  border: 1px solid firebrick;
-  margin: 7px;
-  padding-left: 10px;
+.grid-container {
+  display: grid;
+  grid-template-columns: 250px 250px;
+  grid-template-rows: auto auto;
+  grid-gap: 15px;
+  grid-template-areas: "Name Lastname""Email .""Textarea Textarea""Textarea Textarea";
+  ;
 }
 
-.e {
-  justify-content: left;
-  flex-direction: column;
+.Name {
+  grid-area: Name;
+}
+
+.Lastsname {
+  grid-area: Lastsname;
+}
+
+.Email {
+  grid-area: Email;
+}
+
+.Textarea {
+  grid-area: Textarea;
+}
+
+input {
+  width: 200px;
+  border-radius: 80px;
+  border: 1px solid firebrick;
+  margin: 9px;
+  padding-left: 10px;
 }
 
 textarea {
   height: 160px;
-  width: 480px;
+  width: 390px;
   border-radius: 15px;
-  float: left;
-  max-width: 90%;
   padding-top: 10px;
   padding-bottom: 30px;
   border: 1px solid firebrick;
+  margin: 7px;
 }
 
 button {
-  font-family: comfortaa;
-  /*justify-content: center;*/
+  font-family: 'comfortaa';
   align-items: center;
+  display: inline-block;
   padding: 0 20px 2px 20px;
   min-width: 150px;
   height: 55px;
@@ -81,16 +96,21 @@ button {
   text-transform: uppercase;
   border: 1px solid firebrick;
   border-radius: 15px;
-  margin-top: 50px;
+  margin-top: 25px;
   margin-bottom: 150px;
   color: firebrick;
 }
 
+.block {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .flex2 {
- display: flex;
- justify-content: center;
- align-items: center;
- flex-direction: column;
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 button:hover {
