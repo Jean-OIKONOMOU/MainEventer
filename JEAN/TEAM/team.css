@@ -1,0 +1,54 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas: "CEO -coo" "CFO CTO";
+}
+
+.CEO {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas: "ceoPIC . ." "ceoPIC . .";
+  grid-area: CEO;
+}
+
+.ceoPIC { grid-area: ceoPIC; }
+
+.-coo {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas: "cooPIC . ." "cooPIC . .";
+  grid-area: -coo;
+}
+
+.cooPIC { grid-area: cooPIC; }
+
+.CFO {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas: "CFOpic . ." "CFOpic . .";
+  grid-area: CFO;
+}
+
+.CFOpic { grid-area: CFOpic; }
+
+.CTO {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas: "CTOpic . ." "CTOpic . .";
+  grid-area: CTO;
+}
+
+.CTOpic { grid-area: CTOpic; }
+
+.flex {
+  display: flex;
+  justify-content: center;
+
+  margin-left:20%;
+  margin-right:20%;
+}
