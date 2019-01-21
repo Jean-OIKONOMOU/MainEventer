@@ -1,0 +1,60 @@
+@font-face {
+  font-family: "Comfortaa";
+  src: url("fonts/Comfortaa-Regular.ttf") format("truetype");
+  font-family: "Cinzel";
+  src: url("fonts/Cinzel-Regular.ttf") format("truetype");
+}
+
+.who_we_are {
+    font-family: 'Comfortaa';
+    background-color: pink;
+    }
+
+.placement {
+    height: 800px;
+    width: 75%;
+    margin: auto;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+.biere img {
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 600px;
+    background-color: orange;
+    }
+
+.comment {
+    position: relative;
+    top: -100px;
+    left: -700px;
+    color: white;
+    width: 350px;
+    height: 50px;
+    background-color: red;
+    }
+
+.titre {
+    position: relative;
+    top: -50px;
+    left: 0;
+    width : 500px;
+    height : 400px;
+    background-color: blue;
+    font-family: arial;
+    text-transform: lowercase;
+    font-size: 2em;
+    }
+
+.texte {
+    position: relative;
+    top: 100px;
+    left: -300px;
+    width : 800px;
+    height : 400px;
+    background-color: purple;
+    }
