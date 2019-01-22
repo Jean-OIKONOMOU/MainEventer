@@ -1,50 +1,48 @@
-div{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-left: auto;
-  margin-left: auto;
-  color: pink;
+section{
+  margin: auto;
+  width: 65%;
 }
+
+
+
 h2{
   text-align: center;
+  position: relative;
 }
-span{
-  background-color: red;
-}
+
 hr{
   width: 6%;
   background-color: red;
   height: 2px;
   margin-top: -15px;
 }
-section{
-  margin-left: 10px;
-  margin-right: 10px;
+
+.general1{
+  border: 5px solid red;
+  width: 550px;
+  height: 400px;
+  float: left;
+
 }
 
-span{
-  padding: 10px;
-
+.general2{
+  border: 5px solid red;
+  width: 550px;
+  height: 400px;
+  float: right;
 }
-img{
-  position: relative;
-}
-p{
-  background-color: yellow;
+.travail{
+  border: 2px solid yellow;
+  margin-top: 40px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
+.titre{
+  display: inline;
+}
+.img{
+  float: left;
+  margin-top: 40px;
+}
 
 
 
