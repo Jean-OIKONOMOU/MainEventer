@@ -1,0 +1,72 @@
+section{
+  margin: auto;
+  width: 65%;
+}
+
+
+
+h2{
+  text-align: center;
+  position: relative;
+}
+
+hr{
+  width: 6%;
+  background-color: red;
+  height: 2px;
+  margin-top: -15px;
+}
+
+.general1{
+  width: 550px;
+  height: 400px;
+  float: left;
+
+}
+
+.general2{
+  width: 550px;
+  height: 400px;
+  float: right;
+}
+.travail{
+  margin-top: 80px;
+}
+
+.titre{
+  display: inline;
+  background-color: red;
+}
+.img{
+  float: left;
+  margin-top: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
