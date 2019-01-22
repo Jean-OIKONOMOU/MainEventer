@@ -1,13 +1,13 @@
-@font-face{
+@font-face {
   font-family: 'maineventer';
   src: url('fonts/Comfortaa-Regular.ttf') format('truetype');
 }
 
-h3{
+h3 {
   font-family: 'maineventer';
 }
 
-footer{
+footer {
   background-image: url("img/swirl_pattern.png");
   margin-left: -15px;
   margin-right: -15px;
@@ -21,15 +21,19 @@ footer{
   align-items: center;
 }
 
-.titre h3{
+.titre h3 {
   text-transform: uppercase;
   font-size: 2em;
   position: relative;
 }
 
-.test img{
+.test img {
   position: relative;
   border-radius: 50%;
   margin: 25px;
   height: 50px;
+}
+
+.test img:hover {
+opacity: 0.6;
 }
