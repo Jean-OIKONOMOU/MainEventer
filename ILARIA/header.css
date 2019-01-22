@@ -28,10 +28,23 @@ body{
     top: 8px;
     right: 1px;
     z-index: -1;
+    animation-name: navMouvement;
+    animation-duration: 3s;
 }
 .logo{
     position: absolute;
     top: 150px;
     left:45%;
+    animation-name: mouvement;
+    animation-duration: 3s;
+}
 
+@keyframes mouvement{
+    0% {opacity: 0; top:0;}   
+    100% {opacity: 1;}
+}
+
+@keyframes navMouvement{
+    0% {opacity: 0; bottom:0;}   
+    100% {opacity: 1;}
 }
