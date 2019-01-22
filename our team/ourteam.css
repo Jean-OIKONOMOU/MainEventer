@@ -18,7 +18,6 @@ hr{
 }
 
 .general1{
-  border: 5px solid red;
   width: 550px;
   height: 400px;
   float: left;
@@ -26,18 +25,17 @@ hr{
 }
 
 .general2{
-  border: 5px solid red;
   width: 550px;
   height: 400px;
   float: right;
 }
 .travail{
-  border: 2px solid yellow;
-  margin-top: 40px;
+  margin-top: 80px;
 }
 
 .titre{
   display: inline;
+  background-color: red;
 }
 .img{
   float: left;
