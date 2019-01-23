@@ -64,7 +64,7 @@ body {
   position: absolute;
   top: 8px;
   right: 95px;
-  z-index: -1;
+  z-index: 99;
   animation-name: navMouvement;
   animation-duration: 3s;
   font-family: 'Comfortaa';
