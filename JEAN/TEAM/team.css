@@ -1,71 +1,59 @@
-@font-face {
-  font-family: 'cinzel';
-  src: url('Cinzel-Regular.ttf') format('truetype');
-  /* Safari, Android, iOS */
-}
-
-@font-face {
-  font-family: 'comfortaa';
-  src: url('Comfortaa-Regular.ttf') format('truetype');
-  /* Safari, Android, iOS */
-}
-
 .grid-container {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  grid-template-areas: "CEO COO" "CFO CTO";
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-areas: "CEO CEO CEO COO COO COO" "CEO CEO CEO COO COO COO" "CFO CFO CFO CTO CTO CTO" "CFO CFO CFO CTO CTO CTO";
 }
 
 .CEO {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  grid-template-areas: "ceoPIC ceoText ceoText" "ceoPIC ceoText ceoText";
+  grid-template-areas: "CEOPIC CEOTEXT CEOTEXT" "CEOPIC CEOTEXT CEOTEXT";
   grid-area: CEO;
 }
 
-.ceoPIC { grid-area: ceoPIC; }
+.CEOPIC { grid-area: CEOPIC; }
 
-.ceoText { grid-area: ceoText; }
+.CEOTEXT { grid-area: CEOTEXT; }
 
 .COO {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  grid-template-areas: "cooPIC cooText cooText" "cooPIC cooText cooText";
+  grid-template-areas: "COOPIC COOTEXT COOTEXT" "COOPIC COOTEXT COOTEXT";
   grid-area: COO;
 }
 
-.cooPIC { grid-area: cooPIC; }
+.COOPIC { grid-area: COOPIC; }
 
-.cooText { grid-area: cooText; }
+.COOTEXT { grid-area: COOTEXT; }
 
 .CFO {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  grid-template-areas: "CFOpic cfoText cfoText" "CFOpic cfoText cfoText";
+  grid-template-areas: "CFOPIC CFOTEXT CFOTEXT" "CFOPIC CFOTEXT CFOTEXT";
   grid-area: CFO;
 }
 
-.CFOpic { grid-area: CFOpic; }
+.CFOPIC { grid-area: CFOPIC; }
 
-.cfoText { grid-area: cfoText; }
+.CFOTEXT { grid-area: CFOTEXT; }
 
 .CTO {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  grid-template-areas: "CTOpic ctoText ctoText" "CTOpic ctoText ctoText";
+  grid-template-areas: "CTOPIC CTOTEXT CTOTEXT" "CTOPIC CTOTEXT CTOTEXT";
   grid-area: CTO;
 }
 
-.CTOpic { grid-area: CTOpic; }
+.CTOPIC { grid-area: CTOPIC; }
 
-.ctoText { grid-area: ctoText; }
+.CTOTEXT { grid-area: CTOTEXT; }
 
-.flex {
+.TEAMflex {
   display: flex;
   justify-content: center;
   margin-left:15%;
