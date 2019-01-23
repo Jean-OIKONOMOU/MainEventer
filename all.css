@@ -21,8 +21,88 @@
     opacity: 1;
   }
 }
+@-webkit-keyframes mouvement {
+  0% {
+    opacity: 0;
+    top: 0;
+  }
 
+  100% {
+    opacity: 1;
+  }
+}
+@-moz-keyframes mouvement {
+  0% {
+    opacity: 0;
+    top: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+@-o-keyframes mouvement {
+  0% {
+    opacity: 0;
+    top: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+@-ms-keyframes mouvement {
+  0% {
+    opacity: 0;
+    top: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
 @keyframes navMouvement {
+  0% {
+    opacity: 0;
+    right: -200px;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes navMouvement {
+  0% {
+    opacity: 0;
+    right: -200px;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+@-moz-keyframes navMouvement {
+  0% {
+    opacity: 0;
+    right: -200px;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+@-o-keyframes navMouvement {
+  0% {
+    opacity: 0;
+    right: -200px;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+@-ms-keyframes navMouvement {
   0% {
     opacity: 0;
     right: -200px;
@@ -64,7 +144,7 @@ body {
   position: absolute;
   top: 8px;
   right: 95px;
-  z-index: 99;
+  z-index: 2;
   animation-name: navMouvement;
   animation-duration: 3s;
   font-family: 'Comfortaa';
