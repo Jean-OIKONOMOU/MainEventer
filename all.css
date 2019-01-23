@@ -511,7 +511,7 @@ button:hover {
 
 /*footer*/
 footer {
-  background-image: url("img/swirl_pattern.png");
+  background-image: url("swirl_pattern.png");
   margin-left: -15px;
   margin-right: -15px;
   height: 200px;
